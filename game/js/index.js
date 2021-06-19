@@ -63,6 +63,7 @@ Fonts from Google Fonts
 
 
     theGuess: function (e) {
+      console.log("entered the guess")
       e.preventDefault();
       var guess = this.guessLetterInput.val();
       if (guess.match(/[a-zA-Z]/) && guess.length == 1) {
